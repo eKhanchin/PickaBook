@@ -4,10 +4,10 @@ Welcome!
 Here is the code of android app that helps to manage personal list of books and randomly pick book from that list.
 
 ## App's features:
-	- Add a book to a database
-	- View all books as list
+	- Add a book to the database
+	- View all books as a list
 	- Pick random book from a list
-	- Leave a comment about a book (for yourself)
+	
 ## User Interface:
 ### Main page:
 <img src="Screenshots/main_page.JPG" width="200">
@@ -20,9 +20,6 @@ Here is the code of android app that helps to manage personal list of books and 
 
 ### All books page:
 <img src="Screenshots/all_books.jpg" width="200">
-
-### Book's info page:
-<img src="Screenshots/books_info.JPG" width="200">
 
 ## Created by: 
 [Eugeny Khanchin](https://github.com/eKhanchin)
