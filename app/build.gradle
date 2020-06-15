@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.hitorus.pickabookv2"
+        applicationId "com.hitorus.pickabook"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
@@ -18,6 +18,13 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+}
+
+android.applicationVariants.all { variant ->
+    variant.outputs.all {
+        def appName = "PickaBook"
+        outputFileName = appName+"-${variant.versionName}.apk"
     }
 }
 
