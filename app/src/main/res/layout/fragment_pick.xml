@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/randomPickLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/randomPickLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:id="@+id/pickedBookNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noBooks"
+        android:textColor="@color/textColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/randomPickLabel"
+        android:layout_marginTop="80dp"
+        android:shadowColor="@color/namesShadowColor"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="2"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:autoSizeTextType="uniform"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/pickedAuthorNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noAuthors"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/pickedBookNameLabel"
+        android:layout_marginTop="50dp"
+        android:shadowColor="@color/namesShadowColor"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="2"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:autoSizeTextType="uniform"/>
+
+
+    <TextView
+        android:id="@+id/readQuestionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readQuestionLabel"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"/>
+
+    <Button
+       android:id="@+id/readApproveButton"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/apply_button_borders"
+       android:drawableStart="@drawable/ic_approve"
+       android:drawableTint="@color/textColor"
+       android:padding="13dp"
+       android:layout_alignEnd="@+id/readQuestionLabel"
+       android:layout_marginEnd="-50dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="40dp"
+       style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+       android:id="@+id/repickButton"
+       android:layout_width="80dp"
+       android:layout_height="50dp"
+       android:background="@drawable/button_borders"
+       android:drawableStart="@drawable/ic_repick"
+       android:drawableTint="@color/textColor"
+       android:textAlignment="center"
+       android:textSize="16sp"
+       android:textColor="@color/textColor"
+       android:fontFamily="sans-serif-condensed-medium"
+       android:layout_centerHorizontal="true"
+       android:layout_alignBottom="@id/readQuestionLabel"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="40dp"
+       android:padding="28dp"
+       style="@style/Widget.AppCompat.Button.Colored"/>
+
+    <Button
+       android:id="@+id/readDeclineButton"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:background="@drawable/decline_button_borders"
+       android:drawableStart="@drawable/ic_decline"
+       android:drawableTint="@color/textColor"
+       android:padding="13dp"
+       android:layout_alignStart="@+id/readQuestionLabel"
+       android:layout_marginStart="-50dp"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="40dp"
+       style="@style/Widget.AppCompat.Button.Colored"/>
+</RelativeLayout>

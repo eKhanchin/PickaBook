@@ -1,0 +1,50 @@
+<resources>
+    <string name="appName">Pick a Book</string>
+
+    <!-- General -->
+    <string name="yesButtonText">Yes</string>
+    <string name="noButtonText">No</string>
+    <string name="cancelButtonText">Cancel</string>
+    <string name="searchHint">Search books</string>
+
+    <!-- Main Window Fragment -->
+    <string name="logoName">Pick a Book</string>
+    <string name="pickButtonText">Pick</string>
+    <string name="addBookButtonText">Add book</string>
+    <string name="allBooksButtonText">All books</string>
+
+    <!-- Add Book Fragment -->
+    <string name="bookDetailsText">Enter book\'s details</string>
+    <string name="bookNameHint">Book\'s name</string>
+    <string name="authorNameHint">Author\'s name</string>
+    <string name="statusHint">Book\'s status</string>
+    <string name="addButton">Add</string>
+    <string name="absentNameAuthorToast">Please, provide both book\'s and author\'s names!</string>
+    <string name="bookAlreadyExist">You already have this book!</string>
+    <string name="addedBookToast">A book has been added!</string>
+
+    <!--All Books Fragment-->
+    <string name="noBooksToast">You have no books yet!</string>
+    <string name="noSearchResultsToast">No results!</string>
+    <string name="startReadingOption">Start reading</string>
+    <string name="finishReadingOption">Mark as finished</string>
+    <string name="clearStatusOption">Clear status</string>
+    <string name="copyNameOption">Copy name</string>
+    <string name="renameOption">Rename</string>
+    <string name="deleteBookOption">Delete</string>
+    <string name="changedStatusToReadingToast">Enjoy the book!</string>
+    <string name="changedStatusToFinishedToast">Congratulations! What about another one?</string>
+    <string name="changedStatusToPendingToast">OK, let\'s leave this book for a while.</string>
+    <string name="copyObjectToast">Copied book\'s and author\'s names to clipboard!</string>
+    <string name="renameButtonText">Rename</string>
+    <string name="bookRenameToast">The book has been renamed!</string>
+    <string name="deleteBookMessage">Do you want to delete </string>
+    <string name="deleteBookToast">The book has been deleted!</string>
+
+    <!-- Pick Fragment -->
+    <string name="randomPickLabel">Randomly picked book</string>
+    <string name="noBooks">No books</string>
+    <string name="noAuthors">No authors</string>
+    <string name="readQuestionLabel">Do you want to read it?</string>
+    <string name="pickBookToast">Enjoy the book!</string>
+</resources>

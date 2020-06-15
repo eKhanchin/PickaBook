@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#4D5E72</color>
+    <color name="colorAccent">#FFB961</color>
+
+    <!-- General colors -->
+    <color name="backgroundColor">#4D5E72</color>
+    <color name="textColor">#EBEBEB</color>
+    <color name="namesShadowColor">#000000</color>
+    <color name="buttonColor">#568EA3</color>
+    <color name="buttonBorderColor">#3F6A8A</color>
+
+    <!-- Add Book colors-->
+    <color name="editTextCursorColor">#FFB961</color>
+    <color name="hintColor">#B3BEBCBC</color>
+    <color name="editTextTintColor">#C0B6B6</color>
+
+    <!-- All Books colors -->
+    <color name="rowColor">#607791</color>
+    <color name="rowBordersColor">#F6BE78</color>
+    <color name="popupMenuColor">#2a3132</color>
+    <color name="dialogTitleColor">#DDD2B1</color>
+
+    <!-- Pick colors -->
+    <color name="applyButtonColor">#4AA361</color>
+    <color name="applyButtonBorderColor">#3A7E4B</color>
+    <color name="declineButtonColor">#AD5151</color>
+    <color name="declineButtonBorderColor">#993A3A</color>
+</resources>

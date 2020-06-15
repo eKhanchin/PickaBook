@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/startReadingOption"
+        android:title="@string/startReadingOption" />
+    <item android:id="@+id/finishReadingOption"
+        android:title="@string/finishReadingOption"/>
+    <item android:id="@+id/clearStatusOption"
+        android:title="@string/clearStatusOption"/>
+    <item android:id="@+id/copyNameOption"
+        android:title="@string/copyNameOption"/>
+    <item android:id="@+id/renameOption"
+        android:title="@string/renameOption"/>
+    <item android:id="@+id/deleteBookOption"
+        android:title="@string/deleteBookOption" />
+</menu>

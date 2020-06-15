@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logoName"
+        android:textColor="@color/textColor"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:shadowColor="@color/namesShadowColor"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="2"
+        />
+
+    <Button
+        android:id="@+id/pickButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pickButtonText"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_borders"
+        android:padding="15dp"
+        android:drawableStart="@drawable/ic_dice"
+        android:drawableTint="@color/textColor"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <Button
+        android:id="@+id/addBookButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/addBookButtonText"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/pickButton"
+        android:layout_marginBottom="-75dp"
+        android:background="@drawable/button_borders"
+        android:padding="15dp"
+        android:drawableStart="@drawable/ic_plus"
+        android:drawableTint="@color/textColor"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+    <Button
+        android:id="@+id/allBooksButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/allBooksButtonText"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/addBookButton"
+        android:layout_marginBottom="-75dp"
+        android:background="@drawable/button_borders"
+        android:padding="15dp"
+        android:drawableStart="@drawable/ic_list"
+        android:drawableTint="@color/textColor"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+</RelativeLayout>
