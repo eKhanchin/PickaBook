@@ -10,16 +10,16 @@ Here is the code of android app that helps to manage personal list of books and 
 	
 ## User Interface:
 ### Main page:
-<img src="Screenshots/main_page.JPG" width="200">
+<img src="screenshots/main.JPG" width="200">
 
 ### Random pick page:
-<img src="Screenshots/pick.JPG" width="200">
+<img src="screenshots/random_pick.JPG" width="200">
 
 ### Add book page:
-<img src="Screenshots/add_book.JPG" width="200">
+<img src="screenshots/add_book.JPG" width="200">
 
 ### All books page:
-<img src="Screenshots/all_books.jpg" width="200">
+<img src="screenshots/all_books.jpg" width="200">
 
 ## Created by: 
 [Eugeny Khanchin](https://github.com/eKhanchin)
