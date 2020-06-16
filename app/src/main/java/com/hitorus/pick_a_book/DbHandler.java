@@ -138,21 +138,21 @@ public class DbHandler extends SQLiteOpenHelper {
         String original_author = book.getAuthor().replace("'","''");
         String original_status = book.getStatus().toString();
 
-        if (newValues[0].equals("")) {
+        if (!newValues[0].equals("")) {
             args.put(COLUMN_NAME, newValues[0].replace("'","''"));
         }
         else {
             args.put(COLUMN_NAME, original_name);
         }
 
-        if (newValues[1].equals("")) {
+        if (!newValues[1].equals("")) {
             args.put(COLUMN_AUTHOR, newValues[1].replace("'","''"));
         }
         else {
             args.put(COLUMN_AUTHOR, original_author);
         }
 
-        if (newValues[2].equals("")) {
+        if (!newValues[2].equals("")) {
             args.put(COLUMN_STATUS, newValues[2]);
         }
         else {
